@@ -1,0 +1,158 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        
+        {% block title %}
+            
+        {% endblock title %}
+            
+    </title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-danger  shadow">
+        <div class="container-fluid ">
+            <a class="navbar-brand " href="{% url 'smkmukti:index' %}" >
+                <img  src="{% static 'img/logo.png' %}"  alt="image" width="40px">
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+              <li class="nav-item ">
+                <a class="nav-link {% if nbar == 'home' %}active{% endif %}" aria-current="page" href="{% url 'smkmukti:index' %}">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link {% if nbar == 'blog' %}active{% endif %}" href="{% url 'blog:index' %}">Blog</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link {% if nbar == 'agenda' %}active{% endif %}" href="{% url 'smkmukti:agenda'  %}">Agenda</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link {% if nbar == 'pengumuman' %}active{% endif %}" href="{% url 'smkmukti:pengumuman' %}">Pengumuman</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link {% if nbar == 'gallery' %}active{% endif %}" href="{% url 'smkmukti:gallery' %}">Gallery</a>
+              </li>
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Program Keahlian
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Teknik dan Bisnis Sepeda Motor</a></li>
+                    <li><a class="dropdown-item" href="#">Akuntansi dan Keuangan Lembaga</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    {% block content %}
+        
+    {% endblock content %}
+        
+ <!-- Footer -->
+ <footer class="text-center text-lg-start text-muted mt-5">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-5 col-xl-4 mx-auto mb-4">
+            <!-- Content -->            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p> Jl. Lingkar Selatan , Km.6, Muktisari, Kebumen, Kenteng, Muktisari, Kec. Kebumen, Kabupaten Kebumen, Jawa Tengah (54311)</p>
+            <p> <i class="fa fa-envelope"> smk_mukti.karya_kebumen@yahoo.co.id</i>  
+            </p>
+            <p><i class="fa fa-phone"></i> (0287) 387171</p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Menu Utama
+            </h6>
+            <p>
+              <a href="{% url 'smkmukti:index' %}" class="text-reset">Beranda</a>
+            </p>
+            <p>
+              <a href="{% url 'blog:index' %}" class="text-reset">Blog</a>
+            </p>
+            <p>
+              <a href="{% url 'smkmukti:gallery' %}" class="text-reset">Gallery</a>
+            </p>
+            <p>
+              <a href="{% url 'smkmukti:agenda'  %}" class="text-reset">Agenda</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Akademik
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Kurikulum</a>
+            </p>
+            <p>
+              <a href="{% url 'smkmukti:pengumuman' %}" class="text-reset">Pengumuman</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>About us
+            </h6>
+            <p>
+              SMK Mukti Karya Kebumen merupakan salah satu smk swasta terbaik di kebumen
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © SMK MUKTI KARYA KEBUMEN
+      <!-- <a class="text-reset fw-bold">Aydicorp</a> -->
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="{% static 'vendor/bootstrap/bootstrap.js' %}"></script>
+</body>
+</html>

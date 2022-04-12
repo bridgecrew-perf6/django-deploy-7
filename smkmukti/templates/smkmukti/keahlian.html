@@ -1,0 +1,25 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block title %}
+    Keahlian
+{% endblock title %}
+
+
+{% block content %}
+    <div class="container container-xl mt-5">
+        <h1 class="ml-auto">Keahlian</h1>
+            {% if detail %}
+                {% for detail in detail %}
+                <p>{{detail.isi|linebreaks}}</p>
+                {% endfor %}
+            {% else %}
+                <div class="card">
+                  <div class="card-body bg-warning text-center"><b>
+                    Tidak ada Data Tersedia</b>
+                  </div>
+                </div>
+            {% endif %}
+    </div>
+{% endblock content %}
+    
+    

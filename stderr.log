@@ -1,0 +1,1666 @@
+[UID:2230][381747] Child process with pid: 381847 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+ModuleNotFoundError: No module named 'myweb.wsgi'
+Invalid HTTP_HOST header: 'smkmuktikaryakebumen.sch.id'. You may need to add 'smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'smkmuktikaryakebumen.sch.id'. You may need to add 'smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'smkmuktikaryakebumen.sch.id'. You may need to add 'smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Session data corrupted
+Session data corrupted
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/fonts.css
+Not Found: /static/admin/css/fonts.css
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 104, in find_template
+    template_name, skip=history,
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: main.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/smkmukti/views.py", line 44, in Index
+    return render(request,'smkmukti/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: main.html
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/img/logo.png
+Not Found: /static/css/styles.css
+Not Found: /static/media/arsenal.jpeg
+Session data corrupted
+Session data corrupted
+Session data corrupted
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/css/styles.css
+Not Found: /static/img/logo.png
+Not Found: /static/media/arsenal.jpeg
+Not Found: /static/css/styles.css
+Not Found: /static/css/styles.css
+Not Found: /static/css/styles.css
+Not Found: /static/media/arsenal.jpeg
+Not Found: /static/img/logo.png
+Not Found: /static/css/styles.css
+Not Found: /static/media/arsenal.jpeg
+Not Found: /static/img/logo.png
+Not Found: /static/img/logo.png
+Not Found: /static/img/logo.png
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/img/home.jpg
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/img//home/u1481648/myweb/media/internet.jpeg
+Not Found: /static/img/internet.jpeg
+Not Found: /static/img/internet.jpeg
+Not Found: /static/img/internet.jpeg
+Not Found: /static/img/kaltim.jpg
+Not Found: /static/img/kaltim.jpg
+Not Found: /static/media/kaltim.jpg
+Not Found: /static/img/kaltim.jpg
+Not Found: /static/media/kaltim.jpg
+Not Found: /static/img/kaltim.jpg
+Not Found: /static/media/kaltim.jpg
+Not Found: /static/img/kaltim.jpg
+Not Found: /static/img/internet.jpeg
+Not Found: /static/img/internet.jpeg
+Not Found: /static/img/internet.jpeg
+Forbidden (CSRF cookie not set.): /blog/detail-blog/335178921/sw/
+Forbidden (CSRF cookie not set.): /blog/detail-blog/335178921/sw/
+Forbidden (CSRF cookie not set.): /blog/detail-blog/388379232/dituduh-tak-hormati-watford-mikel-arteta-bela-para-pemain-arsenal/
+Internal Server Error: /blog/category/Olahraga
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 30, in FilterBlog
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Kategori' object is not iterable
+Internal Server Error: /blog/category/Prestasi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 30, in FilterBlog
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Kategori' object is not iterable
+Internal Server Error: /blog/category/Prestasi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 30, in FilterBlog
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 167, in render
+    values = list(values)
+TypeError: 'Kategori' object is not iterable
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /agenda/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /static/css/styles.css
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /static/css/styles.css
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /agenda/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: 'filter=='
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 25, in Index
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 964, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 897, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 900, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '==' from 'filter=='
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 25, in Index
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 979, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 85: 'else', expected 'endif'. Did you forget to register or load this tag?
+/home/u1481648/myweb/blog/views.py:31: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:31: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:31: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 25, in Index
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with no arguments not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+Internal Server Error: /blog/
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 25, in Index
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with no arguments not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:31: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 40, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 40, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 40, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 40, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 40, in FilterBlog
+    }
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 41, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 1389, in url
+    args.append(parser.compile_filter(value))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{cat}}' from '{{cat}}'
+Internal Server Error: /blog/category/Teknologi
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 41, in FilterBlog
+    return render(request,'blog/index-filter.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 278, in do_extends
+    nodelist = parser.parse()
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 216, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 965, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 1389, in url
+    args.append(parser.compile_filter(value))
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{cat}}' from '{{cat}}'
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Internal Server Error: /blog/
+Traceback (most recent call last):
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/u1481648/myweb/blog/views.py", line 24, in Index
+    return render(request,'blog/index.html',context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 312, in render
+    return nodelist.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/base.py", line 86, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/u1481648/virtualenv/myweb/3.7/lib/python3.7/site-packages/django/urls/resolvers.py", line 694, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categorytampil' with arguments '('',)' not found. 1 pattern(s) tried: ['blog/category/(?P<data_category>[^/]+)$']
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:30: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /wp-login.php
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /static/css/styles.css
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /agenda/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Not Found: /favicon.ico
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /static/css/styles.css
+Not Found: /favicon.ico
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Not Found: /wp-login.php
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /static/css/styles.css
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Not Found: /robots.txt
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /page/1/
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+Not Found: /wp-login.php
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /robots.txt
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Not Found: /favicon.ico
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /th1s_1s_a_4o4.html
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'www.smkmuktikaryakebumen.sch.id'. You may need to add 'www.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /blog/detail-blog/468571972/pasar-ponsel-dunia-apple-rebut-posisi-2-dari-xiaomi-berkat-iphone-13/
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'mail.smkmuktikaryakebumen.sch.id'. You may need to add 'mail.smkmuktikaryakebumen.sch.id' to ALLOWED_HOSTS.
+Bad Request: /
+Not Found: /favicon.ico
+/home/u1481648/myweb/blog/views.py:12: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'blog.models.Blog'> QuerySet.
+  blog_paginator  = Paginator(blog,3)
+[UID:2230][30525] Child process with pid: 30900 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][11462] Child process with pid: 11611 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][27634] Child process with pid: 27794 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][16827] Child process with pid: 17038 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][38506] Child process with pid: 38905 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][15859] Child process with pid: 16276 was killed by signal: 15, core dump: 0
+[UID:2230][15859] Child process with pid: 7897 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][9922] Child process with pid: 10190 was killed by signal: 15, core dump: 0
+[UID:2230][9922] Child process with pid: 10313 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][28081] Child process with pid: 28246 was killed by signal: 15, core dump: 0
+[UID:2230][28081] Child process with pid: 48403 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][48468] Child process with pid: 48773 was killed by signal: 15, core dump: 0
+[UID:2230][48468] Child process with pid: 6754 was killed by signal: 15, core dump: 0
+[UID:2230][48468] Child process with pid: 29029 was killed by signal: 15, core dump: 0
+[UID:2230][48468] Child process with pid: 42249 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][7885] Child process with pid: 8168 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][40386] Child process with pid: 40620 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][27468] Child process with pid: 27724 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][30735] Child process with pid: 30994 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][41682] Child process with pid: 41910 was killed by signal: 15, core dump: 0
+[UID:2230][48564] Child process with pid: 48913 was killed by signal: 15, core dump: 0
+[UID:2230][41682] Child process with pid: 6652 was killed by signal: 15, core dump: 0
+[UID:2230][41682] Child process with pid: 6925 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][25865] Child process with pid: 26135 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][25078] Child process with pid: 25271 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 25272 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 25460 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 26242 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 26962 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 27110 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 27932 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 28145 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 32033 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 32211 was killed by signal: 15, core dump: 0
+[UID:2230][25078] Child process with pid: 35687 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][35783] Child process with pid: 36243 was killed by signal: 15, core dump: 0
+[UID:2230][47666] Child process with pid: 47969 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][9509] Child process with pid: 9700 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][36125] Child process with pid: 36536 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][47199] Child process with pid: 47424 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][3578] Child process with pid: 3667 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][38000] Child process with pid: 38489 was killed by signal: 15, core dump: 0
+[UID:2230][23189] Child process with pid: 23463 was killed by signal: 15, core dump: 0
+[UID:2230][23189] Child process with pid: 8274 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][39081] Child process with pid: 39235 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][47127] Child process with pid: 47262 was killed by signal: 15, core dump: 0
+[UID:2230][47127] Child process with pid: 3658 was killed by signal: 15, core dump: 0
+[UID:2230][47127] Child process with pid: 5701 was killed by signal: 15, core dump: 0
+[UID:2230][13869] Child process with pid: 14177 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][20605] Child process with pid: 20892 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][24399] Child process with pid: 24668 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][40334] Child process with pid: 40599 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][42483] Child process with pid: 42706 was killed by signal: 15, core dump: 0
+[UID:2230][12770] Child process with pid: 13214 was killed by signal: 15, core dump: 0
+[UID:2230][42483] Child process with pid: 9998 was killed by signal: 15, core dump: 0
+[UID:2230][42483] Child process with pid: 10893 was killed by signal: 15, core dump: 0
+[UID:2230][42483] Child process with pid: 11506 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][2655] Child process with pid: 2919 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][12227] Child process with pid: 12503 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][32926] Child process with pid: 33143 was killed by signal: 15, core dump: 0
+[UID:2230][32926] Child process with pid: 33971 was killed by signal: 15, core dump: 0
+[UID:2230][2473] Child process with pid: 2898 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][1814] Child process with pid: 1994 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][43598] Child process with pid: 44008 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][4311] Child process with pid: 4505 was killed by signal: 15, core dump: 0
+[UID:2230][4311] Child process with pid: 4567 was killed by signal: 15, core dump: 0
+Traceback (most recent call last):
+  File "/home/u1481648/myweb/passenger_wsgi.py", line 1, in <module>
+    from myweb.wsgi import application
+  File "/home/u1481648/myweb/myweb/__init__.py", line 1, in <module>
+    import pymysql
+ModuleNotFoundError: No module named 'pymysql'
+[UID:2230][7336] Child process with pid: 7552 was killed by signal: 15, core dump: 0
+[UID:2230][7336] Child process with pid: 7671 was killed by signal: 15, core dump: 0

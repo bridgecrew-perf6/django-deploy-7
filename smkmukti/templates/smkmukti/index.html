@@ -1,0 +1,103 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block title %}
+    Beranda
+{% endblock title %}
+
+
+{% block content %}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">{{heading}}</h1>
+            <p class="lead">{{subheading}}</p>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <h1 style="margin-left: 10px;">SMK Mukti Karya Kebumen</h1>        
+    </div>
+
+    <div class="container-fluid" style="background-color: #F5F7FA;">
+        <div class="container mt-5 mb-3 p-5">
+            <h1 class="text-center mb-3" style="margin-top: -20px; background-color: #F5F7FA;">Agenda</h1>
+            <hr style="height: 5px;width: 100px; margin: auto; color: blue;">
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">                
+                {% for agenda in agenda %}
+                <div class="col">
+                    <div class="card" style="border: none; background-color: #F5F7FA;">
+                        <div class="card mb-3" style="max-width: 540px; background-color: #F5F7FA; border: none;">
+                            <div class="row g-0">
+                                <div class="col-md-4 " >
+                                    <div class="row g-0"style="background-color: #060D62; color:#FFF; ">
+                                    <h1 class="text-center display-3 mt-3">{{agenda.agenda_date|date:'d'}}</h1>
+                                    <h4 class="text-center">{{agenda.agenda_date|date:'b-Y'}}</h4>
+                                    <h5 class="text-center mt-3">{{agenda.agenda_time|date:'H:i'}}</h5>
+                                </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{agenda.agenda_judul}}</h5>
+                                        <p class="card-text">{{agenda.agenda_isi|truncatechars:100}}</p>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>                                      
+    </div>
+
+    <div class="container-fluid" style="background-color: #F5F7FA;">
+        <div class="container mt-5 mb-3 p-5">
+            <h1 class="text-center mb-3" style="margin-top: -20px; background-color: #F5F7FA;">Pengumuman</h1>
+            <hr style="height: 5px;width: 100px; margin: auto; color: blue;">
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">                
+                {% for pengumuman in pengumuman %}
+                <div class="col">
+                    <div class="card" style="border: none; background-color: #F5F7FA;">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4 " style="background-color: #060D62; color:#FFF;">
+                                    <h1 class="text-center display-3">{{pengumuman.tanggal|date:'d'}}</h1>
+                                    <p class="text-center ">{{pengumuman.tanggal|date:'b-Y'}}</p>          
+                                </div>
+                                <div class="col-md-8" style="background-color: #F5F7FA; border: none;">
+                                    <div class="card-body" >
+                                        <h5 class="card-title">{{pengumuman.judul}}</h5>
+                                        <p class="card-text">{{pengumuman.isi|truncatechars:20}}</p>
+                                                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>                                      
+    </div>
+
+    <div class="container-fluid" style="background-color: #F5F7FA;">
+        <div class="container mt-5 mb-3 p-5">
+            <h1 class="text-center mb-5" style="margin-top: -20px;">Berita Terbaru</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">                                
+                {% for berita in berita %}
+                    <div class="col">
+                        <div class="card" style="border: none;">
+                            <a href="{% url 'blog:detail' berita.randomnumber berita.id berita.slug %}" class="text-dark text-decoration-none"> <img src="{% static 'media/' %}{{berita.gambars.get}}" class="card-img-top" alt="image"></a>
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="{% url 'blog:detail' berita.randomnumber berita.id berita.slug %}" class="text-dark text-decoration-none"> {{berita.blog_judul}}</a></h5>
+                                <p class="card-text">{{berita.blog_isi|truncatechars:100}}<a href="{% url 'blog:detail' berita.randomnumber berita.id berita.slug %}"> Show more</a></p>
+                                <p class="card-text"><small class="text-muted">{{berita.blog_datetime}}</small></p>
+                            </div>
+                        </div>
+                    </div>                         
+                {% endfor %}                                      
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+    
+    

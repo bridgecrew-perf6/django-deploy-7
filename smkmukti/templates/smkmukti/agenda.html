@@ -1,0 +1,83 @@
+{% extends 'main.html' %}
+
+{% block title %}
+    Agenda
+{% endblock title %}
+
+
+{% block content %}
+    <div class="container container-xl mt-5">
+        <h1 class="ml-auto">Agenda</h1>
+        <table class="table mt-3">
+            <tbody>
+              
+              {% for agenda in object_list %}
+                  <tr>
+                    <td class="col-2">
+                        <div class="card text-center mt-4 align-top" style="margin-bottom: -20px;" >
+                            <div class="card-body card-body-white " style="border-color: #D44000; background-color: #D44000;">
+                              <table >
+                                <th>
+                                  <tr>
+                                    <th>                                      
+                                      <i class="fa fa-circle" style="margin-right: 150px;"></i>
+                                    </th>
+                                    <th>                                      
+                                      <i class="fa fa-circle" ></i>
+                                    </th>
+                                  </tr>
+                                </th>
+                              </table>
+                              
+                            </div>
+                        </div>  
+                        <div class="card text-center mt-3" >
+                            <div class="card-body card-body-white">                              
+                              <h1 class="card-title display-2" style="color: #4E9F3D;font-weight: bold; margin-top: -20px;">{{agenda.agenda_date|date:'d'}}</h1>
+                              <h5 class="card-text" style="color: #4E9F3D; margin-top: -10px;">{{agenda.agenda_date|date:'b-Y'}}</h5>
+                              <div class="card text-white " style=" background-color: #FFF9B0;">
+                                <div class="card-header"><h6 class="card-title "style="color: #4E9F3D; font-weight: bold;">{{agenda.agenda_time|date:'H:i'}}-selesai</h6></div>                              
+                              </div>
+                            </div>
+                        </div>                
+                    </td>
+                    <td class="col-10" >
+                        <div class="card mb-5 "style="border: none;">
+                            <div class="card-body card-body-white">
+                              <h5 class="card-title ">{{agenda.agenda_judul}}</h5>
+                              <p class="card-text mt-3">{{agenda.agenda_isi|linebreaks}}</p>
+                            </div>
+                        </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>  
+              <nav aria-label="Page navigation example" >
+                {% if is_paginated %}
+                <ul class="pagination justify-content-center ">
+                  {% if page_obj.has_previous %}
+                    <li class="page-item"><a class="page-link" href="{% url 'smkmukti:agenda' %}?page={{ page_obj.previous_page_number }}">Previous</a></li>
+                  {% else %}
+                    <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                  {% endif %}
+                  {% for i in paginator.page_range %}
+                    {% if page_obj.number == i %}
+                      <li class="page-item active"><a class="page-link">{{ i }}</a></li>
+                    {% else %}
+                      <li class="page-item"><a class="page-link" href="{% url 'smkmukti:agenda' %}?page={{ i }}">{{ i }}</a></li>
+                    {% endif %}
+                  {% endfor %}
+                  {% if page_obj.has_next %}
+                    <li class="page-item"><a class="page-link" href="{% url 'smkmukti:agenda' %}?page={{ page_obj.next_page_number }}">Next</a></li>
+                  {% else %}
+                    <li class="page-item disabled"><a class="page-link" href="#">Next</a></li>
+                  {% endif %}
+                </ul>
+              {% endif %}
+              </nav>
+                        
+    </div>
+{% endblock content %}
+    
+    

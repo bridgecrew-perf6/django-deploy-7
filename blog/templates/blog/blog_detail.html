@@ -1,0 +1,99 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block title %}
+    Blog
+{% endblock title %}
+
+
+{% block content %}
+<div class="container container-fluid shadow mt-5">    
+    <div class="row">
+      <div class="col-sm-6 col-md-5 p-2 col-lg-8 ">
+        
+           <div class="card mb-5 p-5" style="width: auto;">
+            <img src="{% static 'media/' %}{{berita.gambars.get}}" class="card-img-top img-fluid"  alt="image"><p></p>
+            <div class="card-body">
+              <h5 class="card-title">{{berita.blog_judul}}</h5>
+              <p class="card-text "style="margin-top: -10px; margin-bottom: 10px;"><small class="text-muted" >{{berita.blog_datetime}}</small></p>
+              <p class="card-text">{{berita.blog_isi|linebreaks|safe}}</p>    
+            </div>
+          </div>                            
+  
+        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Komentar</button>              
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="komen-tab" data-bs-toggle="tab" data-bs-target="#komen" type="button" role="tab" aria-controls="komen" aria-selected="false">Tinggalkan Komentar</button>
+            </li>    
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active p-3" id="home" role="tabpanel" aria-labelledby="home-tab">             
+             {% for komen in komen %}
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                      <p style="margin-bottom: -10px;">{{komen.komentar_nama}}</p>
+                      <p><small class="text-muted fs-6" style="margin-top: -10px;margin-bottom: 10px;">{{komen.komentar_datetime}}</small></p>
+                      <footer class="blockquote-footer">{{komen.komentar_isi}}</footer>
+                    </blockquote>
+                  </div>
+                </div>               
+             {% endfor %}               
+            </div>
+                <div class="tab-pane fade mt-3 p-3" id="komen" role="tabpanel" aria-labelledby="komen-tab">
+                  <form method = "POST">
+                    {% csrf_token %}
+                    <table> 
+                      {% for form in post_form %}
+                        <div class="form-group">
+                            {{form.label}}
+                            {{form}}
+                        </div>
+                      {% endfor %}                                              
+                    </table>
+                    <button class="btn btn-primary" type="Submit">Kirim</button>
+                  </form>          
+                </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
+          </div>
+        
+      </div>
+
+      <div class="col-sm-6 col-md-5 offset-md-2 col-lg-4 offset-lg-0 bg-white">
+        <div class="row p-2">
+            <div class="card mt-2 mb-5 bg-transparent border-white" style="width: 100%;">
+                <div class="card-header" >
+                Kategori
+                </div>
+                <ul class="list-group bg-transparent list-group-flush">
+                  <li class="list-group-item bg-transparent"><a href="/blog" class="text-dark text-decoration-none"> Semua</a></li>                                  
+                {% for kat in kategori %}
+                  <li class="list-group-item bg-transparent"><a href="{% url 'blog:categorytampil' kat.kategori %}" class="text-dark text-decoration-none"> {{kat.kategori}}</a></li>                                  
+                {% endfor %}                  
+                </ul>
+            </div>
+            <h2>Terbaru</h2>
+            {% for ter in terbaru %}
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <a href="{% url 'blog:detail' ter.randomnumber ter.id ter.slug %}" class="text-dark text-decoration-none">
+                    <img src="{% static 'media/' %}{{ter.gambars.get}}" class="img-fluid mt-5" alt="image"></a>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"> <a href="{% url 'blog:detail' ter.randomnumber ter.id ter.slug %}" class="text-dark text-decoration-none">{{ter.blog_judul}}</a></h5>
+                    <p class="card-text"> <a href="{% url 'blog:detail' ter.randomnumber ter.id ter.slug %}" class="text-dark text-decoration-none">{{ter.blog_isi|truncatechars:100}}</a></p>
+                    <p class="card-text"><small class="text-muted">{{ter.blog_datetime}}</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock content %}
+    
