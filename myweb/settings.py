@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','some_random_default_string')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG',False)
 
-# ALLOWED_HOSTS = ['smkmuktikaryakebumen.sch.id']
+ALLOWED_HOSTS = ['aldilaraka.pythonanywhere.com']
 
 
 # Application definition
@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'myweb.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dj_smk',
-        'USER': 'root',
-        'PASSWORD': '',
+        'NAME': 'aldilaraka@smkdjango',
+        'USER': 'aldilaraka',
+        'PASSWORD': 'percobaan',
         'HOST': 'localhost',
         'PORT': 3306
     }
