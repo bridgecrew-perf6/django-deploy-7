@@ -12,8 +12,9 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+from dotenv import load_dotenv
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-
+load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -21,10 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ''
+SECRET_KEY = os.environ.get('SECRET_KEY','some_random_default_string')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG',False)
 
 # ALLOWED_HOSTS = ['smkmuktikaryakebumen.sch.id']
 
@@ -57,7 +58,9 @@ ROOT_URLCONF = 'myweb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [
+            BASE_DIR.joinpath('templates')
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -125,13 +128,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static_root/'
-# STATIC_ROOT = BASE_DIR/'static_root/'
+STATIC_ROOT = BASE_DIR/'static_root/'
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR/'static_root/media'
 # untuk offline
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,'static_root'),
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR,'static_root'),
+# ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
